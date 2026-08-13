@@ -1,0 +1,8 @@
+{
+  "name": "Remix Untitled",
+  "description": "tôi cần thêm hình ảnh \n",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
