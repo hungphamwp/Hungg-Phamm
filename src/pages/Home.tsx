@@ -43,7 +43,7 @@ export function Home() {
                   <p className="text-gold text-xl tracking-[0.2em] mt-2 font-light">2026</p>
                 </div>
                 <img 
-                  src="/images/hero-1.jpg"
+                  src="/images/hero-main.jpg"
                   alt="Trung Thu 2026 Collection" 
                   className="w-full h-full object-cover"
                 />
@@ -83,13 +83,13 @@ export function Home() {
                 className="grid grid-cols-3 gap-4 mt-12 max-w-2xl mx-auto lg:mx-0"
               >
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-                  <img src="/images/mooncake-1.jpg" alt="Bánh Trung Thu" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                  <img src="/images/cake-thap-cam.jpg" alt="Bánh Trung Thu Thập Cẩm" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-                  <img src="/images/gift-box-2.jpg" alt="Hộp Quà Cao Cấp" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                  <img src="/images/box-trang-doan-vien.jpg" alt="Hộp Quà Trăng Đoàn Viên" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-                  <img src="/images/tea-1.jpg" alt="Trà Thượng Hạng" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                  <img src="/images/gallery-tea-1.jpg" alt="Trà Shan Tuyết Thượng Hạng" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                 </div>
               </motion.div>
             </div>
@@ -238,7 +238,7 @@ export function Home() {
             <div className="w-full lg:w-2/3 relative flex">
               <div className="w-full rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border-4 border-gold/40 relative group">
                 <img 
-                  src="/images/banner-1.jpg" 
+                  src="/images/banner-promo.jpg" 
                   alt="Trung Thu Banner" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
                 />
