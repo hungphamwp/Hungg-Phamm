@@ -259,58 +259,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* 4. Footer Information Section (Mimicking Maison footer logic) */}
-      <section className="py-16 bg-[#F8F9FA] border-t border-gray-200">
-        <div className="container mx-auto px-4 md:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div>
-              <div className="flex flex-col mb-4">
-                <span className="font-serif text-2xl font-bold tracking-[0.15em] uppercase leading-none text-[#8A1A24]">Trăng</span>
-                <span className="font-sans text-xs tracking-[0.3em] uppercase mt-1 text-[#8A1A24]">Đoàn Viên</span>
-              </div>
-              <p className="text-sm text-gray-600 mb-4 font-medium">Nhãn hiệu đã được đăng ký và bảo hộ độc quyền tại Việt Nam.</p>
-              <div className="space-y-3 text-sm text-gray-600">
-                <p className="flex items-start gap-3"><FontAwesomeIcon icon={faLocationDot} className="text-[#8A1A24] mt-1 w-4" /> 123 Lê Lợi, Phường Bến Thành, Quận 1, TP.HCM</p>
-                <p className="flex items-center gap-3"><FontAwesomeIcon icon={faPhone} className="text-[#8A1A24] w-4" /> <a href="tel:0913337280" className="hover:text-[#8A1A24] font-bold">0913 337 280</a></p>
-              </div>
-            </div>
-            
-            <div>
-              <h4 className="font-bold text-brown-dark uppercase mb-5 tracking-wider border-b border-gray-200 pb-2 inline-block">Về chúng tôi</h4>
-              <ul className="space-y-3 text-sm text-gray-600">
-                <li><Link to="/about" className="hover:text-[#8A1A24] transition-colors flex items-center gap-2"><FontAwesomeIcon icon={faChevronRight} className="text-[10px] text-gray-400" /> Giới thiệu</Link></li>
-                <li><Link to="/blog" className="hover:text-[#8A1A24] transition-colors flex items-center gap-2"><FontAwesomeIcon icon={faChevronRight} className="text-[10px] text-gray-400" /> Tin tức & Cẩm nang</Link></li>
-                <li><Link to="/corporate" className="hover:text-[#8A1A24] transition-colors flex items-center gap-2"><FontAwesomeIcon icon={faChevronRight} className="text-[10px] text-gray-400" /> Chính sách bán sỉ</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-brown-dark uppercase mb-5 tracking-wider border-b border-gray-200 pb-2 inline-block">Chính sách</h4>
-              <ul className="space-y-3 text-sm text-gray-600">
-                <li><Link to="/" className="hover:text-[#8A1A24] transition-colors flex items-center gap-2"><FontAwesomeIcon icon={faChevronRight} className="text-[10px] text-gray-400" /> Chính sách thanh toán</Link></li>
-                <li><Link to="/" className="hover:text-[#8A1A24] transition-colors flex items-center gap-2"><FontAwesomeIcon icon={faChevronRight} className="text-[10px] text-gray-400" /> Chính sách vận chuyển</Link></li>
-                <li><Link to="/" className="hover:text-[#8A1A24] transition-colors flex items-center gap-2"><FontAwesomeIcon icon={faChevronRight} className="text-[10px] text-gray-400" /> Chính sách đổi trả</Link></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-brown-dark uppercase mb-5 tracking-wider border-b border-gray-200 pb-2 inline-block">Đăng ký nhận tin</h4>
-              <p className="text-sm text-gray-600 mb-4 leading-relaxed">Nhận thông tin ưu đãi mới nhất và các bộ sưu tập giới hạn từ chúng tôi.</p>
-              <form className="flex shadow-sm" onSubmit={(e) => e.preventDefault()}>
-                <input type="email" placeholder="Email của bạn..." className="flex-1 bg-white border border-gray-300 px-4 py-2.5 rounded-l-md focus:outline-none focus:border-[#001D4A] text-sm" required />
-                <button type="submit" className="bg-[#001D4A] text-white px-5 py-2.5 rounded-r-md hover:bg-[#8A1A24] transition-colors font-bold text-sm tracking-wide">
-                  GỬI
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <div className="bg-[#001D4A] text-white/70 text-center py-4 text-[11px] uppercase tracking-wider">
-        <p>Công ty Cổ Phần Giải pháp Quà tặng Trăng Đoàn Viên | ĐKKD số: 0110302853. Cấp ngày 29.3.2023. Nơi cấp: Sở KH&ĐT thành phố HCM</p>
-      </div>
-
     </div>
   );
 }
