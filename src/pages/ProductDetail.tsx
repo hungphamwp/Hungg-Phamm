@@ -4,8 +4,7 @@ import { products } from '../data/products';
 import { formatPrice } from '../lib/utils';
 import { useStore } from '../store/useStore';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMinus, faPlus, faHeart, faStar } from '@fortawesome/free-solid-svg-icons';
-
+import { faMinus, faPlus, faHeart, faStar, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '../components/ProductCard';
 
@@ -45,9 +44,9 @@ export function ProductDetail() {
       <div className="container mx-auto px-4 md:px-8 py-6">
         <div className="flex items-center text-sm text-brown-dark/50 uppercase tracking-wider">
           <Link to="/" className="hover:text-brown-dark transition-colors">Trang chủ</Link>
-          <ChevronRight className="w-4 h-4 mx-2" />
+          <FontAwesomeIcon icon={faChevronRight} className="w-3 h-3 mx-2" />
           <Link to="/shop" className="hover:text-brown-dark transition-colors">Cửa hàng</Link>
-          <ChevronRight className="w-4 h-4 mx-2" />
+          <FontAwesomeIcon icon={faChevronRight} className="w-3 h-3 mx-2" />
           <span className="text-brown-dark">{product.name}</span>
         </div>
       </div>
