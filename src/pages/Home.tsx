@@ -43,7 +43,7 @@ export function Home() {
                   <p className="text-gold text-xl tracking-[0.2em] mt-2 font-light">2026</p>
                 </div>
                 <img 
-                  src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=90"
+                  src="/images/hero-1.jpg"
                   alt="Trung Thu 2026 Collection" 
                   className="w-full h-full object-cover"
                 />
@@ -83,13 +83,13 @@ export function Home() {
                 className="grid grid-cols-3 gap-4 mt-12 max-w-2xl mx-auto lg:mx-0"
               >
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-                  <img src="https://images.unsplash.com/photo-1605807646983-377112959fd7?auto=format&fit=crop&w=400&q=85" alt="Bánh Trung Thu" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                  <img src="/images/mooncake-1.jpg" alt="Bánh Trung Thu" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-                  <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=400&q=85" alt="Hộp Quà Cao Cấp" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                  <img src="/images/gift-box-2.jpg" alt="Hộp Quà Cao Cấp" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-                  <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=400&q=85" alt="Trà Thượng Hạng" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                  <img src="/images/tea-1.jpg" alt="Trà Thượng Hạng" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
                 </div>
               </motion.div>
             </div>
@@ -238,7 +238,7 @@ export function Home() {
             <div className="w-full lg:w-2/3 relative flex">
               <div className="w-full rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border-4 border-gold/40 relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&w=1400&q=90" 
+                  src="/images/banner-1.jpg" 
                   alt="Trung Thu Banner" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
                 />
